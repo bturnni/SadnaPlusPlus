@@ -7,7 +7,7 @@ class Rational
 private:
 	int mone;
 	int mechane;
-
+	void fix();
 public:
 	Rational(char num1[]);
 	void setMone(int mMone);

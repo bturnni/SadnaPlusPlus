@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdlib.h>
-#include "t1q1/Rational.h"
+#include "Rational.h"
 using namespace std;
 
 int main()

@@ -1,4 +1,16 @@
 #include "Rational.h"
+//recursion func to find the Greatest common divisor
+int gcd(int a, int b) {
+	return b == 0 ? a : gcd(b, a % b);
+}
+//set the lowest form of the Rational
+void Rational::fix()
+{
+	int divider = gcd(mone, mechane);
+	mone = mone / divider;
+	mechane = mechane / divider;
+}
+
 //constactor to create the object by givving string
 Rational::Rational(char num1[])
 {
