@@ -59,7 +59,7 @@ int main() {
 		if (employee[i].GetHoursWorked() > employee[highest].GetHoursWorked())
 			highest = i;
 	cout << "highest salary: " << employee[highest].GetId() << "       " << employee[highest].GetName() << endl;
-
+	delete[] employee;
 	return 0;
 }
 
