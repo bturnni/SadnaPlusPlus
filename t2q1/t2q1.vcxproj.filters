@@ -23,7 +23,7 @@
     <ClCompile Include="Rational.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="t2q2.cpp">
+    <ClCompile Include="t2q1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -23,7 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Rational.cpp" />
-    <ClCompile Include="t2q2.cpp" />
+    <ClCompile Include="t2q1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

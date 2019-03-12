@@ -16,7 +16,7 @@ public:
 	int getMone();
 	int getMechane();
 	void print();
-	bool operator==(Rational& b);
+	bool operator==(Rational &b);
 	//Rational++
 	Rational& operator++();
 	//++Rational
