@@ -95,7 +95,7 @@ bool Rational::operator==(Rational& b) {
 //Rational++
 Rational& Rational::operator++()
 {
-	this->setMone(this->getMone() + 1);
+	this->setMone(this->getMone() + this->getMechane());
 	return *this;
 }
 //++Rational
@@ -108,7 +108,7 @@ Rational Rational::operator++(int)
 //Rational--
 Rational& Rational::operator--()
 {
-	this->setMone(this->getMone() - 1);
+	this->setMone(this->getMone() - this->getMechane());
 	return *this;
 }
 //--Rational

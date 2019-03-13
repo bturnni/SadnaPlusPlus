@@ -34,5 +34,4 @@ public:
 	//date== printing as dd//mm/yyyy
 	bool operator==(Date);
 	void print();
-	static int kupa;
 };
