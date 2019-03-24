@@ -61,12 +61,12 @@ void Rational::setMechane(int mMechane)
 	this->mechane = mMechane;
 }
 //get mone
-int Rational::getMone()
+const int Rational::getMone()
 {
 	return mone;
 }
 //get mechane
-int Rational::getMechane()
+const int Rational::getMechane()
 {
 	return mechane;
 }

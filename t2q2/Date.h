@@ -7,9 +7,9 @@ private:
 	int day, month, year;
 public:
 #pragma region sets, gets
-	int getDay() { return day; }
-	int getMonth() { return month; }
-	int getYear() { return year; }
+	const int getDay() { return day; }
+	const int getMonth() { return month; }
+	const int getYear() { return year; }
 
 	void setDay(int mDay) { day = mDay; }
 	void setMonth(int mMonth) { month = mMonth; }

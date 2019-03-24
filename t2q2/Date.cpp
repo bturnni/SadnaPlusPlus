@@ -70,19 +70,22 @@ Date Date::operator++(int)
 	return temp;
 }
 
-
 //date+=
 Date Date::operator+=(int days)
 {
 	setDay(days + this->day);
 	if (day > 30)
 	{
-		month++;
-		day = days;
+		int n = day / 30;//num of month are in days
+		month = month+n;
+		//calculating them
+		day -= n*30;
 		if (month > 12)
 		{
-			year++;
-			month = 1;
+			n = month / 12;//same with months
+			year += n;
+			//calculating them
+			month -= n * 12;
 		}
 	}
 	return *this;

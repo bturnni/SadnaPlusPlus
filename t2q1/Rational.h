@@ -13,8 +13,8 @@ public:
 	Rational() {}
 	void setMone(int mMone);
 	void setMechane(int mMechane);
-	int getMone();
-	int getMechane();
+	const int getMone();
+	const int getMechane();
 	void print();
 	bool operator==(Rational &b);
 	//Rational++

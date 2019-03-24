@@ -65,6 +65,9 @@ int main()
 				cout << "true\n";
 			else cout << "false\n";
 			break;
+		case 8:
+			d1 += 365;
+			break;
 		default:
 			break;
 		}
