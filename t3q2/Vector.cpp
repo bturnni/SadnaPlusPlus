@@ -32,6 +32,7 @@ Vector::Vector(const Vector& vec)
 
 Vector::~Vector()
 {
+	delete[] this->data;
 }
 
 int Vector::getCapacity()

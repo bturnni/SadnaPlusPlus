@@ -18,16 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Rational.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Rational.cpp" />
-    <ClCompile Include="t2q1.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{8F327628-CF01-4F44-BF15-8B5777A58C9E}</ProjectGuid>
+    <ProjectGuid>{86345055-3B53-4A2A-84F6-FC0D236C1084}</ProjectGuid>
     <RootNamespace>t2q1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -129,6 +122,13 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\t1q1\Rational.cpp" />
+    <ClCompile Include="t2q1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\t1q1\Rational.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

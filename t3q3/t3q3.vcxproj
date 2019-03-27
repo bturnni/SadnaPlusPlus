@@ -20,9 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{86345055-3B53-4A2A-84F6-FC0D236C1084}</ProjectGuid>
-    <RootNamespace>t2q1</RootNamespace>
+    <ProjectGuid>{72E77945-B596-4E32-8C12-A3AAD8DC9513}</ProjectGuid>
+    <RootNamespace>t3q4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>t3q3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,11 +124,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\t1q1\Rational.cpp" />
-    <ClCompile Include="t2q1.cpp" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Poligon.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\t1q1\Rational.h" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Poligon.cpp" />
+    <ClCompile Include="t3q3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
