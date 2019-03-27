@@ -8,7 +8,7 @@ int main()
 	cin >> c1;
 	cin >> c2;
 	cin >> index;
-
+ 
 	String a(c1), b(c2);
 	if (a > b)
 		cout << "a>b\n";
