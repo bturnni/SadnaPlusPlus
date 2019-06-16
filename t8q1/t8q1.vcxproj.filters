@@ -15,34 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="t8q1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BA.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MA.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PHD.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="t7q1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Student.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PHD.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

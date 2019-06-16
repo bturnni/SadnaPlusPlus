@@ -35,7 +35,7 @@ void getShape(Polygon*& p,int size)
 
 int main()
 {
-	Polygon* p1, * p2;
+	/*Polygon* p1, * p2;
 
 	cout << "enter number of sides for polygon 1:\n";
 	int size;
@@ -52,7 +52,7 @@ int main()
 	if (*p1 == *p2)
 		cout << "equal\n";
 	else
-		cout << "not equal\n";
+		cout << "not equal\n";*/
 	return 0;
 }
 

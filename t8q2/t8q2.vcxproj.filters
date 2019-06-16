@@ -15,33 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="t8q2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BA.cpp">
+    <ClCompile Include="QueueStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MA.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PHD.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="t7q1.cpp">
+    <ClCompile Include="Queue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h">
+    <ClInclude Include="QueueStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PHD.h">
+    <ClInclude Include="Queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

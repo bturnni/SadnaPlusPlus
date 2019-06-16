@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="t9q1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BA.cpp">
@@ -27,22 +27,22 @@
     <ClCompile Include="PHD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="t7q1.cpp">
+    <ClCompile Include="Student.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Student.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="BA.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="MA.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="PHD.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
