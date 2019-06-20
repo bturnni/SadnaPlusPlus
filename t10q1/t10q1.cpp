@@ -4,12 +4,10 @@
 using namespace std;
 
 enum Choices {
-	 PRINT = 1,
-	 PRINTALL,
-	 UPDATE, NEW,
+	 ADD = 'a',
 	 DELETE,
-	 CHECKREGISTERED,
-	 END
+	 SEARCH, PRINT,
+	END
 };
 void initilizeFile(fstream *file)
 {
@@ -136,17 +134,15 @@ void printRecord(fstream *file, int id)
 		}
 	}
 }
-int enterChoice()
+char enterChoice()
  {
 	 cout << "\nEnter your choice" << endl
-	 << "1 - Print student"<< endl
-	 << "2 - Print list" << endl
-	 << "3 - update an student" << endl
-	 << "4 - add a new student" << endl
-	 << "5 - delete an student" << endl
-	 << "6 - check registered student" << endl
-	 << "7 - end program\n? ";
-	 int menuChoice;
+	 << "a - add student"<< endl
+	 << "b - delete student from list" << endl
+	 << "c - search a student" << endl
+	 << "d - print students list" << endl
+	 << "e - end program\n? ";
+	 char menuChoice;
 	 cin >> menuChoice;
 	 return menuChoice;
  }
@@ -154,22 +150,16 @@ int main()
 {
 	try
 	{
-		std::fstream StudentsData("example.bin", std::ios::in | ios::out | ios::trunc);
-		if (!StudentsData)
-		{
-			throw "error creating file\n";
-		}
-		initilizeFile(&StudentsData); // init file
-		int id;
-		int choice;
+		char choice;
 		while ((choice = enterChoice()) != END) {
-			StudentsData.seekg(0);
 			switch (choice) {
-				case PRINT: 
+				case ADD: 
 				try {
-					cout << "enter ID to print\n";
-					cin >> id;
-					printRecord(&StudentsData, id);
+					cout << "enter ID, First name, Last name\n";
+					int id;
+					string fname, lname;
+					cin >> id >> fname >> lname;
+					Student stu(id, fname, lname)
 				}
 				catch(char* msg) {
 					cout << msg;
