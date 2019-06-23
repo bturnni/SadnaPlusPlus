@@ -1,15 +1,6 @@
 ## SadnaPlusPlus
 ### Finished 80/80
-- t1q1
-- t1q2
-- t1q3
-- t2q1
-- t2q2
-- t3q1
-- t3q2
-- t3q3
-- t3q4
-- t4q1
+All finished
 
 ### WIP
 
